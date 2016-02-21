@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "website for portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ThomasSmWatson/portfolio.git"
+  },
+  "author": "Thomas Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasSmWatson/portfolio/issues"
+  },
+  "homepage": "https://github.com/ThomasSmWatson/portfolio#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.4"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-node": "^1.14.5"
+  }
+}

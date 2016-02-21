@@ -1,0 +1,7 @@
+create the websites structure
+	home
+	about
+	projects
+	contact
+	
+allow logins for users.

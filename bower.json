@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "description": "website for portfolio",
+  "main": "server.js",
+  "authors": [
+    "Thomas Watson"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ThomasSmWatson/portfolio",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/resources",
+    "test",
+    "tests"
+  ],
+  "directory": "public/resources",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0"
+  }
+}
