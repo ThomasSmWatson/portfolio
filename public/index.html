@@ -3,10 +3,12 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="resources/bootstrap/dist/css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="resources/css/site.css"/>
+		<link rel="stylesheet" type="text/css" href="resources/css/animation.css"/>
 		<script type="text/javascript" src="resources/angular/angular.js"></script>
 		<script type="text/javascript" src="resources/jquery/dist/jquery.js"></script>
 		<script type="text/javascript" src="resources/bootstrap/dist/js/bootstrap.js"></script>
 		<script type="text/javascript" src="resources/angular-route/angular-route.js"></script>
+		<script type="text/javascript" src="resources/angular-animate/angular-animate.js"></script>
 		<script type="text/javascript" src="controllers/app.js"></script>
 		<title>{{title}}</title>
 	</head>
@@ -29,7 +31,7 @@
 				</div>
 			</nav>
 			<div class="container" ng-app="app" style="padding-top:50px">
-				<div ng-view></div>
+				<div ng-view class= "angular-view"></div>
 			</div>
 			</body>
 </html>
