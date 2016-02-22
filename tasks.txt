@@ -1,5 +1,3 @@
 Get MongoDB Running.
 Get Data using angular controllers on each route.
-Add custom css.
-create structure for web pages.
 Add animation to make website more interactive.
