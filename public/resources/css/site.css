@@ -1,13 +1,37 @@
 /* Color for attention: #e62739*/
 body{
-	background-color: #e1e8f0;
+	 background:url("../media/images/background.jpg"); top right no-repeat; background-attachment:fixed; height: 100%;
+}
+
+ body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("../media/images/background.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 h1{
+	font-family: natureFont;
 	color: #334;
 }
 p{
+
 	color: #333;
 }
+@font-face {
+	font: bold;
+    font-family: natureFont;
+    src: url("../fonts/titleFont.ttf");
+}
+
 .navbar{
 	background-color: #334;
 	border-collapse: #444
@@ -23,8 +47,9 @@ p{
 	color:#223;
 }
 .jumbotron{
-	background-color: #6ed3cf;
-	box-shadow: 15px 15px 20px 0px #5dc2be ;
+	background-color: rgba(102,51,0,0.5);
+	box-shadow: 5px 5px 20px 10px rgba(85,34,0,0.7);
+
 }
 .jumbotron > .page-header{
 	color:#f5f5f5;
@@ -34,18 +59,25 @@ p{
 	color:#eee;
 }
 .jumbotron > p >a{
-	color: #9068be;
+	color: #444;
 }
 .jumbotron > p >a:hover{
-	color: #7c54aa;	
+	color: #333;	
 }
 .page-header {
-	border-bottom-color: #bbc;
+	border-bottom-color: #888;
 }
 .about-caption{
 	min-width: 300px;
 	max-width: inherit;
 }
+.page-container{
+	background-color: rgba(225,232,240,0.4);
+	min-height: 100%;
+	height: relative;
+	box-shadow: 15px 15px 25px 0px rgba(205,212,220,0.20) ;
+}
+	
 .cb-container{
 	width:600px;
 	height:relative;

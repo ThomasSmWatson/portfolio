@@ -13,7 +13,7 @@ app.controller('AboutController',["$scope",function($scope){
 			showDetail: false,
 			img_src: "https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/66027_4041365164574_1543902893_n.jpg?oh=1b02e02788733a442e6b69487dd2d0b5&oe=5728196F",
 			name: "Bowie",
-			description: "This is my cat! She loves being lazy and biting feet... She is now named after the singer, just got the name because it just fits.",
+			description: "This is my cat! She is a fluffy. She does not know how to program, which is surprising on how much time she spends on the keyboard...",
 			hobbies: ["Meowing", "Eating allot", "Sleeping", "walking over keyboards"]
 		}
 		]
