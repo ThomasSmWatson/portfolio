@@ -2,24 +2,21 @@
 	<div class="page-header">
 			<h1>About</h1>
 	</div>
-	<div class="consultant-box">
-		<div class = "row" ng-mouseleave="consultant.showDetail = false">
-			<div  class="cb-container">
-	   			 <div class="col-md-4">
-					<img src="{{consultant.img_src}}" class="img-circle cb-image" ng-mouseenter="consultant.showDetail = true">
-					<div class="about-caption"ng-show="consultant.showDetail">
-						<h2><strong>{{consultant.name}}</strong></h2>
-						<hr/>
-						<p>{{consultant.description}}</p>
-						<h4><strong>Hobbies:</strong></h4>
-						<ul>
-							<li ng-repeat="hobby in consultant.hobbies">{{hobby}}</li>
-						</ul>
-						<a href=""><span class="glyphicon glyphicon-menu-down" area-hidden="true"></span></a>
+			<div class="cb-container" >
+				<div class="consultant-box" ng-repeat="consultant in consultants" >
+					<div  ng-mouseleave="consultant.showDetail = false">
+						<img src="{{consultant.img_src}}" class="img-circle cb-image" ng-mouseenter="consultant.showDetail = true">
+						<div class="about-caption"ng-show="consultant.showDetail">
+							<h2><strong>{{consultant.name}}</strong></h2>
+							<hr/>
+							<p>{{consultant.description}}</p>
+							<h4><strong>Hobbies:</strong></h4>
+							<ul>
+								<li ng-repeat="hobby in consultant.hobbies">{{hobby}}</li>
+							</ul>
+							<a href=""><span class="glyphicon glyphicon-menu-down" area-hidden="true"></span></a>
 						</div>
-				</div>	
+					</div>
+				</div>
 			</div>
-		</div>
-
-	</div>
 </div>

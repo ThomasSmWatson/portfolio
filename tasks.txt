@@ -1,3 +1,4 @@
 Get MongoDB Running.
 Get Data using angular controllers on each route.
 Add animation to make website more interactive.
+Clean up css regarding profiles. Allot of 'width: 300px', is this needed??
