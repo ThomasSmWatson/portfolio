@@ -16,3 +16,16 @@
 	opacity: 0;
 	position: absolute;
 }
+.about-caption{
+	transition: 0.3s linear ;
+	position: relative;
+}
+
+.about-caption.ng-hide-remove-active{
+	opacity: 1;
+	padding-top:25%;
+}
+
+.about-caption.ng-hide-remove {
+	opacity: 0;
+}

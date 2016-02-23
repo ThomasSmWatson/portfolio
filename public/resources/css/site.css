@@ -42,3 +42,7 @@ p{
 .page-header {
 	border-bottom-color: #bbc;
 }
+.about-caption{
+	min-width: 300px;
+	max-width: 300px
+}
