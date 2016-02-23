@@ -4,16 +4,15 @@
 	</div>
 	<div class="consultant-box">
 		<div class = "row" ng-mouseleave="consultant.showDetail = false">
-			<div  class="cb-container"style="position:fixed;
-	    left: 50%; margin-left:-150px;">
+			<div  class="cb-container">
 	   			 <div class="col-md-4">
-					<img src="{{consultant.img_src}}" class="img-circle" ng-mouseenter="consultant.showDetail = true" style="max-height:300px; max-width:300px; ">
-					<div class="about-caption"ng-show="consultant.showDetail" align="center">
+					<img src="{{consultant.img_src}}" class="img-circle cb-image" ng-mouseenter="consultant.showDetail = true">
+					<div class="about-caption"ng-show="consultant.showDetail">
 						<h2><strong>{{consultant.name}}</strong></h2>
 						<hr/>
-						<p align="left">{{consultant.description}}</p>
-						<h4 align="left"><strong>Hobbies:</strong></h4>
-						<ul align="left" >
+						<p>{{consultant.description}}</p>
+						<h4><strong>Hobbies:</strong></h4>
+						<ul>
 							<li ng-repeat="hobby in consultant.hobbies">{{hobby}}</li>
 						</ul>
 						<a href=""><span class="glyphicon glyphicon-menu-down" area-hidden="true"></span></a>

@@ -46,3 +46,18 @@ p{
 	min-width: 300px;
 	max-width: 300px
 }
+.cb-container{
+	position:fixed;
+	left: 50%;
+	margin-left:-150px;
+}
+.cb-image{
+	max-height:300px;
+	max-width:300px; 
+}
+.about-caption{
+	text-align: center;
+}
+.about-caption > h4,p,ul{
+	text-align: left;
+}
