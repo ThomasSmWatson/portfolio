@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.0.1",
-  "description": "website for portfolio",
+  "description": "Website demonstrating use of the MEAN stack for practical websites. ",
   "main": "server.js",
   "scripts": {
     "test": "jasmine",
